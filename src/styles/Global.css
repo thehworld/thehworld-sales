@@ -1,0 +1,154 @@
+@font-face {
+    font-family: poppinsBlack;
+    src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: poppinsBold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppinsExtraBold;
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: poppinsMedium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+.poppinsBlack{
+    font-family: "poppinsBlack", sans-serif;
+}
+.poppinsBold{
+    font-family: "poppinsBold", sans-serif;
+}
+.poppinsExtraBold{
+    font-family: "poppinsExtraBold", sans-serif;
+}
+.poppinsMedium{
+    font-family: "poppinsMedium", sans-serif;
+}
+.poppinsRegular{
+    font-family: "poppinsRegular", sans-serif;
+}
+
+.containerPadding1{
+    padding: 10px;
+}
+
+.card-p{
+    margin: 10px;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+@media (max-width: 1400px) {
+    .cards-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1078px) {
+    .cards-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 738px) {
+    .cards-grid{
+        grid-template-columns: 1fr;
+    }
+}
+.cards-grid-len{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1400px) {
+    .cards-grid-len{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1078px) {
+    .cards-grid-len{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 738px) {
+    .cards-grid-len{
+        grid-template-columns: 1fr;
+    }
+}
+
+.dashboard-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 60px 10px;
+    gap: 100px;
+}
+.db-comp-len{
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.db-card-stats{
+    text-align: center;
+    font-family: "poppinsBold", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.db-card-stats-len{
+    text-align: center;
+    font-family: "poppinsBold", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.db-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+  
+.flex-cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card{
+    
+}
+
+.productimg-manage-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+}
+
+.productimg-manage{
+    width: 60px;
+}
+.order-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    gap: 20px;
+}
+.order-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
